@@ -1,0 +1,13 @@
+/**index.wxss**/
+page {
+  height: 100%;
+}
+
+.cantainer {
+  height: 100%;
+  position: relative;
+  background-image: url('https://626c-blog-4genmb1zc99167d5-1256518168.tcb.qcloud.la/iShot_2023-01-20_17.53.22.png?sign=877d61da1f4923adb9636919e87dc41f&t=1674209738');
+  background-size: 100% 100%;
+}
+
+@import 'index-wxa-auto-dark.wxss'
