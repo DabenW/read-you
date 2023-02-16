@@ -1,8 +1,9 @@
 
 <view class="cantainer">
   <view class="background">
-    <text> adsada</text>
-    <text> adsada</text>
+    <view class="cu-form-group" style="margin-top:390px;">
+		  <button class="cu-btn" style="background-color:#1989fa;color:#ffffff;" bindtap="onClickHome">注 册</button>
+    </view>
   </view>
 
 

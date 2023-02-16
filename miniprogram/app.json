@@ -1,19 +1,12 @@
 {
   "entryPagePath": "pages/initPage/index",
   "pages": [
-    "pages/index/index",
-    "pages/getOpenId/index",
-    "pages/getMiniProgramCode/index",
-    "pages/deployService/index",
-    "pages/createCollection/index",
-    "pages/uploadFile/index",
-    "pages/selectRecord/index",
-    "pages/updateRecord/index",
-    "pages/updateRecordResult/index",
-    "pages/updateRecordSuccess/index",
-    "pages/sumRecord/index",
-    "pages/sumRecordResult/index",
-    "pages/initPage/index"
+    "pages/initPage/index",
+    "pages/home/home",
+    "pages/mypage/mypage",
+    "pages/read/read",
+    "pages/chat/chat",
+    "pages/publish/publish"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -23,5 +16,44 @@
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "style": "v2",
+  "tabBar":{
+    "color": "#B0B0B0",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+        {
+            "pagePath": "pages/home/home",
+            "text": "首页",
+            "iconPath": "pages/image/home.png",
+            "selectedIconPath": "pages/image/home-selected.png"
+        },
+        {
+          "pagePath": "pages/read/read",
+          "text": "读书",
+          "iconPath": "pages/image/home.png",
+          "selectedIconPath": "pages/image/home-selected.png"
+        },
+        {
+          "pagePath": "pages/publish/publish",
+          "text": "读书",
+          "iconPath": "pages/image/home.png",
+          "selectedIconPath": "pages/image/home-selected.png"
+        },
+        {
+          "pagePath": "pages/chat/chat",
+          "text": "读书",
+          "iconPath": "pages/image/home.png",
+          "selectedIconPath": "pages/image/home-selected.png"
+        },
+        {
+            "pagePath": "pages/mypage/mypage",
+            "text": "我的",
+            "iconPath": "pages/image/my.png",
+            "selectedIconPath": "pages/image/my-selected.png"
+        }
+      ]
+  },
+  "usingComponents": {}
 }
